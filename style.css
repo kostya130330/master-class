@@ -1,0 +1,30 @@
+body{
+    background: rgb(255, 134, 134);
+    color: rgb(134, 0, 0)
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 100px;
+}
+
+.item{
+    border: 1px rgb(134, 16, 0) solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    animation: show 1s;
+    background: white;
+    box-shadow: 0 0 5px 1px black;
+}
+.item > h1{
+    text-align: center;
+}
+.item > p{
+    text-align: justify;
+}
+@keyframes show {
+    0%{ opacity: 0; transform:translateY(100px);}
+}

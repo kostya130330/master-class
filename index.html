@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Мастер класс JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Мой магазин</h1>
+        </center>
+        <hr>
+    </header>
+    <main>
+        <center>
+            <article id="form">
+                <h2>Добавить товар</h2>
+                <input type="text" placeholder="Введите название" id="name">
+                <input type="textarea" placeholder="Введите описание" id="text">
+                <input type="button" value="Добавить" id="add" onclick="addItem()">
+            </article>
+        </center>
+        <hr>
+        <article id="items">
+            <center>
+                <h2>Мои товары</h2>
+            </center>
+            <article id="container">
+                <div class="item" hidden>
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; 2025 ГБПОУ колледж "Царицыно". Все права защищены.</p>
+    </footer>
+    <script src="script.js" async></script>
+</body>
+
+</html>
